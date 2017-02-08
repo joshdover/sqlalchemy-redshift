@@ -17,7 +17,7 @@ setup(
     packages=['sqlalchemy_redshift', 'redshift_sqlalchemy'],
     package_data={'sqlalchemy_redshift': ['redshift-ssl-ca-cert.pem']},
     install_requires=[
-        'psycopg2>=2.5',
+        'psycopg2cffi>=2.5',
          # requires sqlalchemy.sql.base.DialectKWArgs.dialect_options, new in
          # version 0.9.2
         'SQLAlchemy>=0.9.2',
